@@ -9,7 +9,7 @@ int main() {
     scanf("%d", &a);
     long long refb;
     refb = convert(a);
-    printf("Max Value is %d", a);
+    printf("Value is %d", a);
     printf("\nAnd its HEX Value is %x", a);
     printf("\n\tOctal Value is %o", a);
     printf("\n\tBinary Value is %llu", refb);
