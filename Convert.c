@@ -40,9 +40,8 @@ long long convert(int x) {
 //    for (int a = 1; a <= 9; a++) {
 //        for (int b = 1; b <= 9; b++) {
 //            c = a * b;
-//            if (b == 9 ) result = "[%d x %d = %d]\n";
-//            else result = "[%d x %d = %d]";
-//            printf(result,a,b,c);
+//            result = (b == 9) ? "[%d x %d = %d]\n" : "[%d x %d = %d]";
+//            printf(result, a, b, c);
 //        }
 //    }
 //    return 0;
