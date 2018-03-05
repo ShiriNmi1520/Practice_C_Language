@@ -28,3 +28,22 @@ long long convert(int x) {
     }
     return binary;
 }
+
+//
+//      九九乘法
+//#include <stdio.h>
+//
+//int c;
+//char *result = "String";
+//
+//int main() {
+//    for (int a = 1; a <= 9; a++) {
+//        for (int b = 1; b <= 9; b++) {
+//            c = a * b;
+//            if (b == 9 ) result = "[%d x %d = %d]\n";
+//            else result = "[%d x %d = %d]";
+//            printf(result,a,b,c);
+//        }
+//    }
+//    return 0;
+//}
