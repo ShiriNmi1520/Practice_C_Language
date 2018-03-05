@@ -1,13 +1,10 @@
-//
-//輸入數字之進制轉換
-//
 #include <stdio.h>
 
 
 long long convert(int x);
 
 int main() {
-    unsigned int a;
+    int a;
     printf("Please enter value for a.");
     scanf("%d", &a);
     long long refb;
@@ -31,22 +28,3 @@ long long convert(int x) {
     }
     return binary;
 }
-
-//
-//      九九乘法
-//#include <stdio.h>
-//
-//int c;
-//char *result = "String";
-//
-//int main() {
-//    for (int a = 1; a <= 9; a++) {
-//        for (int b = 1; b <= 9; b++) {
-//            c = a * b;
-//            if (b == 9 ) result = "[%d x %d = %d]\n";
-//            else result = "[%d x %d = %d]";
-//            printf(result,a,b,c);
-//        }
-//    }
-//    return 0;
-//}
