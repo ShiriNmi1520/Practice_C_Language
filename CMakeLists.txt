@@ -3,5 +3,5 @@ project(untitled)
 
 set(CMAKE_C_STANDARD 99)
 
-set(SOURCE_FILES Convert.c)
-add_executable(untitled ${SOURCE_FILES})
+set(SOURCE_FILES)
+add_executable(untitled ${SOURCE_FILES} Convert.c)
