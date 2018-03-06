@@ -16,7 +16,9 @@ int main() {
     return 0;
 }
 
-
+//
+//十進轉二進
+//
 long long convert(int x) {
     long long binary = 0;
     int remainder, i = 1;
@@ -46,3 +48,50 @@ long long convert(int x) {
 //    }
 //    return 0;
 //}
+
+//
+//      判斷天數
+//#include <stdio.h>
+//
+//int year, month, day;
+//
+//int input(void);
+//
+//int calculate(int x, int y, int z);
+//
+//int main() {
+//    input();
+//    calculate(year, month, day);
+//    return 0;
+//}
+//
+//int input(void) {
+//    printf("Enter date (example:yyyy/mm/dd) :");
+//    scanf("%d/%d/%d", &year, &month, &day);
+//}
+//
+//int calculate(int x, int y, int z) {
+//    int total;
+//    if (x % 4 == 0) { //計算是這年是否為閏年
+//        if (y > 2) {
+//            total += 1;
+//        }
+//    }
+//    for (int b = 1; b <= y; b++) {
+//        if (b == 2) {
+//            total += 28;
+//            continue;
+//        }
+//        if (b == 1) continue;
+//        if (b == 7 || b == 8) {
+//            total += 31;
+//            continue;
+//        }
+//        if (b % 2 == 1) total += 31;
+//        else total += 30;
+//    }
+//    total += z;
+//    printf("It has been %d day(s) since %d", total, x);
+//    return total;
+//}
+//
