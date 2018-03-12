@@ -48,7 +48,7 @@ long long convert(int x) {
 //    }
 //    return 0;
 //}
-
+//----END----
 //
 //      判斷天數
 //#include <stdio.h>
@@ -106,5 +106,58 @@ long long convert(int x) {
 //    if (x1 % 2 == 1) total1 += 30;
 //    if (x1 % 2 == 0) total1 += 31;
 //    return total1;
+//}
+//----END----
+//      圖形運算
+//#include <stdio.h>
+//
+//char enter;
+//
+//int triangle(int height, int length);
+//
+//int square(int length, int width);
+//
+//int judgement(char decide);
+//
+//int input(void);
+//
+//int main() {
+//    input();
+//    judgement(enter);
+//    return 0;
+//}
+//
+//int input() {
+//    printf("Enter what graphics you want to calculate areas:\n(triangle[T],square[S])");
+//    scanf("%c", &enter);
+//}
+//
+//int judgement(char decide) {
+//    int height = 0;
+//    int length = 0;
+//    int width = 0;
+//    if (decide == 'T') {
+//        printf("Enter height and length(Integer only)");
+//        scanf("%d %d", &height, &length);
+//        printf("Area: %d", triangle(height, length));
+//
+//    } else if (decide == 'S') {
+//        printf("Enter length and width(Integer only)");
+//        scanf("%d %d", &length, &width);
+//        printf("Area: %d", square(length, width));
+//
+//    }
+//}
+//
+//int triangle(int height, int length) {
+//    int area = 0;
+//    area = (height * length / 2);
+//    return area;
+//}
+//
+//int square(int length, int width) {
+//    int area = 0;
+//    area = length * width;
+//    return area;
 //}
 //
