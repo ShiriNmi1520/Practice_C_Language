@@ -121,6 +121,8 @@ long long convert(int x) {
 //
 //int input(void);
 //
+//double circle(int r);
+//
 //int main() {
 //    input();
 //    judgement(enter);
@@ -128,7 +130,7 @@ long long convert(int x) {
 //}
 //
 //int input() {
-//    printf("Enter what graphics you want to calculate areas:\n(triangle[T],square[S])");
+//    printf("Enter what graphics you want to calculate areas:\n(triangle[T],square[S]),circle[C]");
 //    scanf("%c", &enter);
 //}
 //
@@ -136,6 +138,7 @@ long long convert(int x) {
 //    int height = 0;
 //    int length = 0;
 //    int width = 0;
+//    int radius = 0;
 //    if (decide == 'T') {
 //        printf("Enter height and length(Integer only)");
 //        scanf("%d %d", &height, &length);
@@ -146,6 +149,11 @@ long long convert(int x) {
 //        scanf("%d %d", &length, &width);
 //        printf("Area: %d", square(length, width));
 //
+//    }
+//    else if (decide =='C'){
+//        printf("Enter radius:");
+//        scanf("%d", &radius);
+//        printf("Area: %f", circle(radius));
 //    }
 //}
 //
@@ -161,4 +169,9 @@ long long convert(int x) {
 //    return area;
 //}
 //
-//GPG commit test
+//double circle(int r){
+//    double area = 0;
+//    area = r*r*3.14;
+//    return area;
+//}
+//
