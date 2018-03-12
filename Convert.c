@@ -57,6 +57,8 @@ long long convert(int x) {
 //
 //int input(void);
 //
+//int afternine(int x1);
+//
 //int calculate(int x, int y, int z);
 //
 //int main() {
@@ -71,7 +73,7 @@ long long convert(int x) {
 //}
 //
 //int calculate(int x, int y, int z) {
-//    int total;
+//    int total = 0;
 //    if (x % 4 == 0) { //計算是這年是否為閏年
 //        if (y > 2) {
 //            total += 1;
@@ -87,11 +89,22 @@ long long convert(int x) {
 //            total += 31;
 //            continue;
 //        }
+//        if (b >= 9) {
+//            total += afternine(b);
+//            continue;
+//        }
 //        if (b % 2 == 1) total += 31;
 //        else total += 30;
 //    }
 //    total += z;
 //    printf("It has been %d day(s) since %d", total, x);
 //    return total;
+//}
+//
+//int afternine(int x1) {
+//    int total1 = 0;
+//    if (x1 % 2 == 1) total1 += 30;
+//    if (x1 % 2 == 0) total1 += 31;
+//    return total1;
 //}
 //
